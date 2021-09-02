@@ -1,4 +1,13 @@
 ![BCC Logo](images/logo2.png)
+
+# WP's note on installation on Ubuntu 18.04.5
+
+Firstly install dependencies:
+
+`sudo apt-get -y install bison build-essential cmake flex git libedit-dev \
+  libllvm6.0 llvm-6.0-dev libclang-6.0-dev python zlib1g-dev libelf-dev libfl-dev python3-distutils \
+  luajit luajit-5.1-dev`
+
 # BPF Compiler Collection (BCC)
 
 BCC is a toolkit for creating efficient kernel tracing and manipulation
