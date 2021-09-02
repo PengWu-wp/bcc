@@ -5,8 +5,8 @@
 Firstly install dependencies:
 
 `sudo apt-get -y install bison build-essential cmake flex git libedit-dev \
-  libllvm6.0 llvm-6.0-dev libclang-6.0-dev python zlib1g-dev libelf-dev libfl-dev python3-distutils \
-  luajit luajit-5.1-dev`
+   llvm-6.0-dev libclang-6.0-dev python zlib1g-dev libelf-dev libfl-dev python3-distutils \
+  luajit luajit-5.1-dev netperf iperf`
   
 ### Install and compile BCC
 
@@ -21,6 +21,7 @@ pushd src/python/
 make
 sudo make install
 popd
+
 ```
 
 # BPF Compiler Collection (BCC)
